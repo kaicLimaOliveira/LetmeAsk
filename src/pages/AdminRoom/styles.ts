@@ -31,6 +31,9 @@ export const Content = styled.div`
   & > div {
     display: flex;
     gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+
 
     & > button {
       height: 40px;

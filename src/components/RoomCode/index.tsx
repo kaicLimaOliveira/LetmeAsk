@@ -12,7 +12,7 @@ interface RoomCodeProps {
 const RoomCode: React.FC<RoomCodeProps> = ({ code }) => {
   const copyRoomCode = useCallback(() => {
     navigator.clipboard.writeText(code);
-  }, []);
+  }, [code]);
 
   return (
     <RoomCodeContainer onClick={copyRoomCode}>
