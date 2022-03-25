@@ -4,13 +4,14 @@ import "firebase/auth";
 import "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB2OSMfuzjN8cTffrJEdhlP9LPngXTRmz0",
-  authDomain: "letmeask-f51c3.firebaseapp.com",
-  databaseURL: "https://letmeask-f51c3-default-rtdb.firebaseio.com",
-  projectId: "letmeask-f51c3",
-  storageBucket: "letmeask-f51c3.appspot.com",
-  messagingSenderId: "490660067952",
-  appId: "1:490660067952:web:47f103e5f173ae37f952b5",
+  apiKey: "AIzaSyDCIg3mVjG82rXYvX80zqFXRlnG9BBL9XA",
+  authDomain: "letmeask-app-1a5cf.firebaseapp.com",
+  databaseURL: "https://letmeask-app-1a5cf-default-rtdb.firebaseio.com",
+  projectId: "letmeask-app-1a5cf",
+  storageBucket: "letmeask-app-1a5cf.appspot.com",
+  messagingSenderId: "1099257449195",
+  appId: "1:1099257449195:web:2ac35c507f06bdc9284cae",
+  measurementId: "G-9TBDCW46MP"
 };
 
 firebase.initializeApp(firebaseConfig);
