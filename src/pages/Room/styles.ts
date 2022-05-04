@@ -8,11 +8,11 @@ export const ContainerPage = styled.div`
 `;
 
 export const Content = styled.div`
-  max-width: width 1120px;
+  max-width: 1120px;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
 
   & > img {
